@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+
+    <title>浪漫的心形文字动画特效</title>
+    <link rel="stylesheet" href="187.css">
+    <!-- 为了减少代码量，这个案例用到vue的语法 -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.7.14/dist/vue.min.js"></script>
+</head>
+
+<body style="overflow-y: scroll;">
+
+    <audio src="https://github.com/rynLu76/myGithubPages/blob/main/Lost-and-Found.mp3" autoplay>
+    </audio>
+    <embed src="https://github.com/rynLu76/myGithubPages/blob/main/Lost-and-Found.mp3" width="180" height="90" loop="false" autostart="false" hidden="true" />
+
+    <div class="container" >
+        <!-- --d是CSS的自定义属性 -->
+        <div class="love"  align="center" v-for="item in 67" :style="{'--d':(item*-1)*0.3}" >
+            <div class="love-hor">
+                <div class="love-ver">
+                    <div class="love-text">love u </div>
+                </div>
+            </div>
+
+            <p class="letter">
+    亲爱的丫丫 <br><br>
+    今天是在一起的第281天 谢谢这281天有你的陪伴 281天的形影不离开始让我依恋和离不开你 希望时刻都在你身边抱着和贴着你肉肉的胸和肚子 谢谢你和我一起经历了我人生中的一些第一次 第一次买可乐 第一次同居 亲密关系 第一次养猫 养龙猫 第一次去魁北克 蒙特利尔 第一次拍情侣写真 第一次给你拍写真
+    第一次去旋转餐厅 送你手镯 是做过最高最浪漫的表白 第一次去魁北克地下餐厅用餐 是去过最神秘最惊喜的晚餐 第一次去魁北克小镇 是看到过加东最动人的山水 第一次和你相知相处 是青春中最美的你 <br><br>
+    第一次知道你的心意 听了一整夜的歌曲 第一次看到你的写真 第一次和你交谈 第一次看到你手上的伤痕 知道了你的过往不简单 我想了解 理解你 <br><br>
+    我相信你是善良简单的 但是家庭不得不让你掩饰伪装自己 不容易的脱离苦海 轻松快乐的上学 生活 但又再一次被另一个泥沼吞没 对花季的你是不公的 走出来了 也是一身泥泞  因为你本来就是一朵明艳的花朵 但世人总是想要采摘又扔弃
+    我理解你的失望 无奈 你只是一朵小花 一个小女孩 却被风卷云残 <br><br>
+    我希望可以成为你的太阳和雨露 可以为你清净花瓣 冲去泥泞 照散阴霾 <br><br>
+    可是太阳和天空也会有阴郁的时候 我也是 对不起翻看了你的记录 但如果不看 我不会了解 <br><br>
+    因为缺少关心和认同 你不停的寻找可以给予你慰藉的物事 我愤恨你遇到的人没有一个有担当 我担心你一蹶不振 我焦虑这样的经历会在将来的你和我之间怎么发酵 我也失望 从前你不珍视自己 但我珍视你 <br><br>
+    我不想揪着过去不放 你的过去让你伤痛 也让我伤痛 可我不理解你还和你伤痛的过去有联系 你知道这个时候我也会伤痛吗 你想知道我为什么知道 在相册的最近删除 不是有意去翻的 只是用平板的时候截错图 清理截图的时候看到的 <br><br>
+    对不起让你在一个人出去玩的时候让你难过 我不是不在乎你 是太在乎 想确保你是认真的 是我可以理解的 如果不在乎我可以睁一眼闭一眼 <br><br>
+    对不起我不善言表 高中以前的我虽然内向 但还是在熟悉的人面前有趣 调皮的一个人 归根结底 也许是中考的落榜 离开了最喜欢的人事和朋友 辜负了自己 辜负了我妈 我不敢再夸下海口 做出承诺 让我一直很阴郁低迷 时间久了 我麻痹了 可是我妈和我小姨一直不停地支持我 万宇恒说想我了 资原说等我回家 希望我回去的时候有能力能罩着帮着我 还有丫丫一直在我身边 都让我不能再沉迷低迷 因为以前一直被照顾的我 也需要为一直照顾我的人撑起伞 也需要成为爱我的人和我爱的人的树 所以很渴望能证明自己 希望丫丫可以理解 我没有忽视你 我一直爱你 只是不一样的方式 因为如果我不能为你们遮风挡雨 也就失去了树的意义 <br><br>
+            
+    新的一年 希望你可以找到更好的自己 希望和你一起向上 希望和你一起去坎昆 去夏威夷 去很多很多地方 <br><br>
+    爱你的 陆饶  <br><br>
+</p>
+
+            
+        </div>
+
+        
+    </div>
+</body>
+
+<style>
+    *{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+    overflow: hidden;
+}
+
+body{
+    /* 100%窗口宽高 */
+    height: 100vh;
+    /* 弹性布局 水平+垂直居中 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* 渐变背景 */
+    background: linear-gradient(to top,#ff9a9e,#fad0c4);
+    /* 溢出隐藏 */
+    overflow: hidden;
+    /* 禁止选取 */
+    user-select: none;
+}
+.container {
+    position: relative;
+}
+.love{
+    position: absolute;
+    margin: -350px 0 0 -250px;
+}
+.love-hor{
+    /* 执行水平动画: 动画名 时长 加速后减速 无限次播放 来回轮流播放 */
+    animation: hor 10s ease-in-out infinite alternate;
+    /* 设置动画延迟，--d是自定义属性，可通过var函数对其调用 */
+    animation-delay: calc(var(--d) * 1s);
+}
+.love-ver{
+    /* 执行垂直动画：动画名 时长 线性 无限次播放 */
+    animation: ver 20s linear infinite;
+    /* 设置动画延迟 */
+    animation-delay: calc(var(--d) * 1s);
+}
+.love-text{
+    color: #fff;
+    text-shadow: 0 0 10px #ebeb6d;
+    letter-spacing: 2px;
+    font-size: 22px;
+    transform: translateY(-100%) rotateZ(-30deg);
+}
+.letter{
+    position: absolute;
+    width: 550px;
+    top: 500px;
+    text-align: left;
+    color: #fad0c4;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px)  {
+  body {
+    background-color: lightblue;
+  }
+}
+
+/* 定义动画 */
+/* 水平动画 */
+@keyframes hor {
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(500px);
+    }
+}
+/* 垂直动画 */
+@keyframes ver {
+    0%{
+        transform: translateY(180px);
+    }
+    10%{
+        transform: translateY(45px);
+    }
+    15%{
+        transform: translateY(4.5px);
+    }
+    18%{
+        transform: translateY(0px);
+    }
+    20%{
+        transform: translateY(4.5px);
+    }
+    22%{
+        transform: translateY(34px);
+    }
+    24%{
+        transform: translateY(64px);
+    }
+    25%{
+        transform: translateY(112.5px);
+    }
+    26%{
+        transform: translateY(64px);
+    }
+    28%{
+        transform: translateY(34px);
+    }
+    30%{
+        transform: translateY(4.5px);
+    }
+    32%{
+        transform: translateY(0px);
+    }
+    35%{
+        transform: translateY(4.5px);
+    }
+    40%{
+        transform: translateY(45px);
+    }
+    50%{
+        transform: translateY(180px);
+    }
+    71%{
+        transform: translateY(428px);
+    }
+    72%{
+        transform: translateY(441px);
+    }
+    75%{
+        transform: translateY(450px);
+    }
+    77%{
+        transform: translateY(441px);
+    }
+    79%{
+        transform: translateY(428px);
+    }
+    100%{
+        transform: translateY(180px);
+    }
+}
+</style>
+
+</html>
+
+<script>
+    new Vue({
+        el:'.container'
+    })
+</script>
