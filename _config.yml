@@ -50,9 +50,9 @@ author:
 # Add links to the sidebar.
 menu:
   - title:             Blog
-    url:               /example/
-  - title:             Projects
-    url:               /docs/
+    url:               /blog/
+  - title:             Project
+    url:               /project/
   - title:             About
     url:               /about/
 
