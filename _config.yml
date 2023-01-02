@@ -53,6 +53,12 @@ menu:
     url:               /blog/
   - title:             Project
     url:               /project/
+  - title:             Algo
+    url:               /algo/
+  - title:             SQL
+    url:               /sql/
+  - title:             Life
+    url:               /life/
   - title:             About
     url:               /about/
 
