@@ -54,11 +54,11 @@ menu:
   - title:             Project
     url:               /project/
   - title:             Algo
-    url:               /algo/
+    url:               /Algo/
   - title:             SQL
-    url:               /sql/
+    url:               /Sql/
   - title:             Life
-    url:               /life/
+    url:               /Life/
   - title:             About
     url:               /about/
 
